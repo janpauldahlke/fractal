@@ -1,0 +1,17 @@
+<div class="alter">
+
+  <button id="one" type="button">click</button>
+
+  <script type="text/javascript">
+
+    var elem = document.getElementById('one') || null;
+
+    if (elem) {
+      elem.addEventListener('click', () => {
+        alert('msg');
+      });
+    }
+
+  </script>
+
+</div>

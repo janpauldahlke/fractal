@@ -1,0 +1,15 @@
+{
+  "name": "fractal",
+  "version": "0.0.1",
+  "description": "testing fractal comp librrary",
+  "main": "index.js",
+  "scripts": {
+    "start": "fractal start --sync",
+    "build": "fractal build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7"
+  }
+}
